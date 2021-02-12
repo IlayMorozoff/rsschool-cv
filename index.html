@@ -30,3 +30,151 @@
           </p>
         </div>
       </header>
+      <div class="content">
+        <main class="container-main-information">
+          <section class="section">
+            <h2 class="section__title title">About me</h2>
+            <p class="section__description description">
+              I am 26 years old, I live in Yaroslavl, Russia. I am fond of
+              programming and initially it was as a hobby for the soul, but now
+              I realized that I am ready to change my specialization and go to
+              IT, because I feel in my place. At the moment I work as a design
+              engineer in a large energy company.
+            </p>
+            <p class="section__description description">
+              I learn quickly enough and grasp any information on the fly,
+              trying to apply it in real or educational projects, and I always
+              try to understand the essence of the problem with broken code, so
+              as not to make mistakes in the future. I am in constant learning,
+              because programming is constantly changing, and I like it.
+            </p>
+          </section>
+          <section class="section">
+            <h2 class="section__title title">Education</h2>
+            <details class="section__description description activation">
+              <summary class="section__description description hidden-text">
+                Vologda State University
+              </summary>
+              <p class="section__description description">
+                The period of study: from 2012 to 2016.
+              </p>
+              <p class="section__description description">
+                Qualification: Bachelor of heat power engineering and heat
+                technology
+              </p>
+            </details>
+            <details class="section__description description activation">
+              <summary class="section__description description hidden-text">
+                Russian University of Transport (MIIT)
+              </summary>
+              <p class="section__description description">
+                The period of study: from 2018 to 2020.
+              </p>
+              <p class="section__description description">
+                Qualification: Master of heat power engineering and heat
+                technology
+              </p>
+            </details>
+            <details class="section__description description activation">
+              <summary class="section__description description hidden-text">
+                Programmer's education
+              </summary>
+              <p class="section__description description">
+                I mostly do self-study. Read several books on JavaScript, HTML
+                and CSS, and watched tutorial videos on Youtube.
+              </p>
+            </details>
+          </section>
+          <section class="section-code-exmaple">
+            <h3 class="section-code-exmaple__title title-no-important">
+              Code examples (Will be updated in the future)
+            </h3>
+            <pre>
+            <code>
+let userName = prompt("Who is there?", '');
+
+if (userName == 'Ilya') {
+
+  let pass = prompt('Enter your password?', '');
+
+if (pass == 'I don't know') {
+  alert( 'Well, Hello there' );
+} else if (pass == '' || pass == null) {
+  alert( 'Canceled' );
+} else {
+alert( 'Wrong password' );
+  }
+
+} else if (userName == '' || userName == null) {
+  alert( 'Canceled' );
+} else {
+  alert( "I don't know you" );
+}
+            </code>
+          </pre>
+          </section>
+        </main>
+        <aside class="sidebar">
+          <h2 class="sidebar__title title">Contacts</h2>
+          <ul class="sidebar__list">
+            <li class="sidebar__list-item">
+              Email
+              <a
+                class="sidebar__email link"
+                href="mailto:Morozoff1994@yandex.ru"
+              >
+                Morozoff1994@yandex.ru</a
+              >
+            </li>
+            <li class="sidebar__list-item">
+              Phone
+              <a class="sidebar__phone link" href="tel:8999785509"
+                >+7(999)785-56-09
+              </a>
+            </li>
+          </ul>
+          <h2 class="sidebar__title title">Skills</h2>
+          <ul class="sidebar__list">
+            <li class="sidebar__list-item">Figma, Adobe Photoshop</li>
+            <li class="sidebar__list-item">HTML, CSS</li>
+            <li class="sidebar__list-item">Git/Github</li>
+            <li class="sidebar__list-item">JavaScript</li>
+            <li class="sidebar__list-item">
+              React, Vue, Angular(in the process of learning)
+            </li>
+          </ul>
+          <h2 class="sidebar__title title">Languages</h2>
+          <ul class="sidebar__list">
+            <li class="sidebar__list-item">English: Pre-intermediate (A2)</li>
+            <li class="sidebar__list-item">Russian: Native</li>
+          </ul>
+          <h3 class="title-no-important">Hobbies</h3>
+          <p class="description">
+            Socialising with firends and family, playing games, reading
+            non-fiction books, programming and active doing sport
+          </p>
+        </aside>
+      </div>
+      <footer class="footer">
+        <ul class="footer__list">
+          <li class="footer__list-item">
+            <a
+              class="footer__link"
+              href="https://github.com/IlayMorozoff"
+              target="_blank"
+              >My Github account</a
+            >
+          </li>
+          <li class="footer__list-item">2021</li>
+          <li class="footer__list-item">
+            <a class="footer__link-img rs-school" href="https://rs.school/js/" target="_blank">
+            </a>
+          </li>
+          <li class="footer__list-item">
+            <a class="footer__link-img youtube" href="https://www.youtube.com/watch?v=BoZb6NbTZIA&ab&ab" target="_blank"> </a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+  </body>
+</html>
