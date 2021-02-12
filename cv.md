@@ -29,3 +29,6 @@ const func = (num) => {
 ```
 ## Experience (Will be updated in the future)
 Read several books on JavaScript, HTML, and CSS, and watched tutorial videos on Youtube.
+## Languages
+* English: Level A2, I learn English constantly, I try to communicate as often as possible and improve my speaking using all available applications.
+* Russian: native.
