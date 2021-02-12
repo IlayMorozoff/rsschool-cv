@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+}
+
+/* style for wrapper of container*/
+
+.page-container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/* style for header */
+
+.name {
+  margin-right: 100px;
+  align-self: center;
+}
+
+.header {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header__description {
+  margin-bottom: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.header__photo {
+  border-radius: 50%;
+}
+
+.header__title {
+  margin: 0;
+  font-size: 80px;
+}
+
+/* style for wrapper sidebar and main-content */
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+/* style for block About me, education, code examples */
+
+.container-main-information {
+  padding: 0 30px 30px 30px;
+  order: 1;
+  background-color: #fafafa;
+}
+
+.description {
+  padding-left: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.title {
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #808080;
+  font-size: 30px;
+}
+
+.title-no-important {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #808080;
+  font-size: 20px;
+}
+
+/* style for sidebar */
+
+.sidebar {
+  padding: 0 30px 30px 30px;
+  border-top: 1px solid #fafafa;
+  border-right: 10px solid #000;
+  border-left: 10px solid #000;
+  background-color: #000;
+  color: #fff;
+}
+
+.link {
+  padding-left: 20px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+.sidebar__phone {
+  padding-top: 10px;
+}
+
+.sidebar__list {
+  padding-bottom: 10px;
+  margin: 0;
+  list-style: square;
+  font-size: 18px;
+}
+
+.sidebar__list-item {
+  margin-bottom: 10px;
+}
+
+.sidebar p {
+  margin-top: 10px;
+  margin-left: -10px ;
+}
+
+.link:hover {
+  color: #DAA520;
+}
+
+/* style for details and summary tag, for block education */
+
+.activation[open] .hidden-text ~ * {
+  animation: open 0.3s ease-in-out;
+}
+
+@keyframes open {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.activation .hidden-text {
+  position: relative;
+  width: 100%;
+  padding: 10px 10px;
+  border: 1px solid black;
+  cursor: pointer;
+  list-style: none;
+}
+
+.activation .hidden-text:after {
+  position: absolute;
+  content: "+";
+  color: black;
+  line-height: 0;
+  padding-right: 10px;
+  margin-top: 12px;
+  right: 0;
+  font-weight: 200;
+  transform-origin: center;
+  transition: 200ms linear;
+}
+
+.activation[open] .hidden-text:after {
+  transform: rotate(45deg);
+  font-size: 28px;
+}
+
+.activation .hidden-text {
+  outline: 0;
+}
+
+.activation .hidden-text::-webkit-details-marker {
+  display: none;
+}
+/* style for footer */
+
+.footer {
+  font-size: 14px;
+  background-color: #fafafa;
+}
+
+.footer__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.footer__link {
+  color: #000;
+}
+
+.footer__link:hover{
+  background-color: #000;
+  color: #fff;
+}
+
+.footer__link-img:hover {
+  outline: 2px solid #000;
+}
+
+.footer__link-img {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: 75px 38px;
+  width: 75px;
+  height: 38px;
+}
+
+.rs-school {
+  background-image: url("../img/rs_school_js.svg");
+}
+
+.youtube {
+  background-image: url("../img/YouTube_full-color_icon_(2017).svg");
+}
